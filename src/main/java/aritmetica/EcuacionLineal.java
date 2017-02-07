@@ -12,7 +12,9 @@ public class EcuacionLineal implements Ecuacion {
         this.b=b;
     }
     @Override
-    public float resuelveEcuacion() {
-        return -b/a;
+    public double[] resuelveEcuacion() {
+        double[] res = new double[1];
+        res[0]=-b/a;
+        return res;
     }
 }

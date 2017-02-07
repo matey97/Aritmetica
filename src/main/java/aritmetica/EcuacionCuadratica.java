@@ -10,9 +10,18 @@ public class EcuacionCuadratica implements Ecuacion {
     private float c;
 
     @Override
-    public float resuelveEcuacion() {
-        if (a==0)
+    public double[] resuelveEcuacion() {
+        if (a==0){
             EcuacionLineal ecuacionlineal=new EcuacionLineal(b,c);
-        else
+            ecuacionlineal.resuelveEcuacion();
+        }else{
+            double numRaiz=Math.pow(b,2)-4*a*c;
+            if (numRaiz<0){
+
+            }else{
+
+            }
+        }
+        return null;
     }
 }
