@@ -13,5 +13,6 @@ public class EcuacionCuadratica implements Ecuacion {
     public float resuelveEcuacion() {
         if (a==0)
             EcuacionLineal ecuacionlineal=new EcuacionLineal(b,c);
+        else
     }
 }
