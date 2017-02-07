@@ -22,6 +22,6 @@ public class EcuacionCuadratica implements Ecuacion {
 
             }
         }
-        return null;
+
     }
 }
