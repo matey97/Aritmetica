@@ -7,7 +7,7 @@ public class EcuacionLineal implements Ecuacion {
     private double a;
     private double b;
 
-    public EcuacionLineal(float a,float b){
+    public EcuacionLineal(double a,double b){
         this.a=a;
         this.b=b;
     }

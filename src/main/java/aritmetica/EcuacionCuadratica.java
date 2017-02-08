@@ -3,14 +3,15 @@ package aritmetica;
 /**
  * Created by al341802 on 7/02/17.
  */
-/*public class EcuacionCuadratica implements Ecuacion {
+/*
+public class EcuacionCuadratica implements Ecuacion {
 
-    private float a;
-    private float b;
-    private float c;
+    private double a;
+    private double b;
+    private double c;
 
     @Override
-    public double[] resuelveEcuacion() {
+    public Resultado resuelveEcuacion() {
         if (a==0){
             EcuacionLineal ecuacionlineal=new EcuacionLineal(b,c);
             ecuacionlineal.resuelveEcuacion();
