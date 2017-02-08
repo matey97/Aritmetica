@@ -5,24 +5,19 @@ package aritmetica;
  */
 public class ResultadoLineal implements Resultado{
 
-    private float x;
+    private double x;
 
-    public ResultadoLineal(float x){
+    public ResultadoLineal(double x){
         this.x=x;
     }
 
     @Override
-    public boolean equals(Resultado res) {
-        return this.x==res.getX1();
-    }
-
-    @Override
-    public float getX1() {
+    public double getX1() {
         return this.x;
     }
 
     @Override
-    public float getX2() {
+    public double getX2() {
         return 0;
     }
 }

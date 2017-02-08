@@ -4,8 +4,8 @@ package aritmetica;
  * Created by al341802 on 7/02/17.
  */
 public class EcuacionLineal implements Ecuacion {
-    private float a;
-    private float b;
+    private double a;
+    private double b;
 
     public EcuacionLineal(float a,float b){
         this.a=a;
