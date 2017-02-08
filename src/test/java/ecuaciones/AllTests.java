@@ -12,4 +12,5 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({EcuacionLinealTest.class,EcuacionCuadraticaTest.class})
 
 public class AllTests {
+    
 }
