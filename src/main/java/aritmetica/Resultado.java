@@ -6,4 +6,6 @@ package aritmetica;
 public interface Resultado {
     public double getX1();
     public double getX2();
+    public double getI1();
+    public double getI2();
 }

@@ -13,7 +13,6 @@ public class EcuacionLinealTest {
 	private EcuacionLineal ecuacionLineal;
 	private Resultado res;
 
-
 	@Test
 	public void terminoIndependienteCeroTest() {
 		ecuacionLineal = new EcuacionLineal(1, 0); // x + 0 = 0

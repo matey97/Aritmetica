@@ -20,4 +20,14 @@ public class ResultadoLineal implements Resultado{
     public double getX2() {
         return 0;
     }
+
+    @Override
+    public double getI1() {
+        return 0;
+    }
+
+    @Override
+    public double getI2() {
+        return 0;
+    }
 }

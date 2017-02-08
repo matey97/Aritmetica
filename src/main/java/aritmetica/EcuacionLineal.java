@@ -11,9 +11,9 @@ public class EcuacionLineal implements Ecuacion {
         this.a=a;
         this.b=b;
     }
+
     @Override
     public Resultado resuelveEcuacion() {
-        Resultado res = new ResultadoLineal(-b/a);
-        return res;
+        return new ResultadoLineal(-b/a);
     }
 }
